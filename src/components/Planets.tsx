@@ -4,8 +4,8 @@ import { planetsData } from "../data/planets";
 function Planets() {
   return (
     <>
-      {planetsData.map(({ name, ...rest }) => (
-        <Planet key={name} {...rest} />
+      {planetsData.map((planet) => (
+        <Planet key={planet.name} {...planet} />
       ))}
     </>
   );
