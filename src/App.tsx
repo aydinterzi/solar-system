@@ -9,7 +9,6 @@ function App() {
         position: [0, 10, 20],
         fov: 60,
       }}
-      style={{ width: "100%", height: "100vh" }}
     >
       <OrbitControls />
       <Scene />

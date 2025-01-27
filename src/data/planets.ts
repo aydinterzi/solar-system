@@ -15,6 +15,7 @@ export interface PlanetProps {
   tilt?: number;
   texture?: string;
   ring?: RingProps;
+  description?: string;
 }
 
 export const planetsData: PlanetProps[] = [
@@ -27,6 +28,8 @@ export const planetsData: PlanetProps[] = [
     rotationSpeed: 0.02,
     tilt: 0,
     texture: "planet_textures/2k_mercury.jpg",
+    description:
+      "Mercury is the smallest planet in the Solar System and the closest to the Sun.",
   },
   {
     name: "Venus",
@@ -37,6 +40,8 @@ export const planetsData: PlanetProps[] = [
     rotationSpeed: 0.02,
     tilt: 177,
     texture: "planet_textures/2k_venus_atmosphere.jpg",
+    description:
+      "Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty.",
   },
   {
     name: "Earth",
@@ -47,6 +52,8 @@ export const planetsData: PlanetProps[] = [
     rotationSpeed: 0.02,
     tilt: 23.5,
     texture: "planet_textures/2k_earth_daymap.jpg",
+    description:
+      "Earth is the third planet from the Sun and the only astronomical object known to harbor life.",
   },
   {
     name: "Mars",
@@ -57,6 +64,8 @@ export const planetsData: PlanetProps[] = [
     rotationSpeed: 0.02,
     tilt: 25,
     texture: "planet_textures/2k_mars.jpg",
+    description:
+      "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System.",
   },
   {
     name: "Jupiter",
@@ -67,6 +76,8 @@ export const planetsData: PlanetProps[] = [
     rotationSpeed: 0.02,
     tilt: 3,
     texture: "planet_textures/2k_jupiter.jpg",
+    description:
+      "Jupiter is the fifth planet from the Sun and the largest in the Solar System.",
   },
   {
     name: "Saturn",
@@ -83,6 +94,8 @@ export const planetsData: PlanetProps[] = [
       segments: 64,
       texture: "planet_textures/2k_saturn_ring_alpha.png",
     },
+    description:
+      "Saturn is the sixth planet from the Sun and the second-largest in the Solar System.",
   },
   {
     name: "Uranus",
@@ -93,6 +106,8 @@ export const planetsData: PlanetProps[] = [
     rotationSpeed: 0.02,
     tilt: 98,
     texture: "planet_textures/2k_uranus.jpg",
+    description:
+      "Uranus is the seventh planet from the Sun. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System.",
   },
   {
     name: "Neptune",
@@ -103,5 +118,7 @@ export const planetsData: PlanetProps[] = [
     rotationSpeed: 0.02,
     tilt: 28,
     texture: "planet_textures/2k_neptune.jpg",
+    description:
+      "Neptune is the eighth and farthest known Solar planet from the Sun. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet.",
   },
 ];
