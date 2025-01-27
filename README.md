@@ -146,9 +146,3 @@ This project is licensed under the **MIT License**. Feel free to use, modify, an
 ## Contribution 🤝
 
 Contributions are welcome! Please fork the repository and create a pull request with your enhancements or bug fixes.
-
----
-
-### Short Description
-
-**"A 3D interactive solar system visualization using React Three Fiber and Three.js. Explore planets, asteroid belts, and a dynamic starry background with optimized rendering and smooth interactivity."**
